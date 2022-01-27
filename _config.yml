@@ -1,36 +1,36 @@
-# Profile information
-name: Fresh
-title: Fresh - Free Jekyll Theme
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/fresh" # the subpath of your site, e.g. /blog
-url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
+# Site settings
+title: Thomas Zühlke
+description: 'Business Card Page'
+url: 'http://thomas.zuehlke.family'
+baseurl: ''
+profilepic: '/images/tzuehlke.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
 
-# Social
-facebook: #Add your Facebook
-twitter: #Add your Twitter
-google-plus: #Add your Google+
-github: #Add your Github
-
-# Contact form
-email: #your-email@domain.com
-
-# Comments
-discus-identifier: # Add your Disqus identifier
-
-# Paginate
-paginate: 5
-paginate_path: /page:num/
+author:
+  name: 'Thomas Zühlke'
+  email: info@thomas-zuehlke.de
+  twitter_username: thomzuehlke
+#  facebook_username: joshgerdes
+  github_username:  tzuehlke
+  linkedin_username:  thomas-zühlke-889182165
+  meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
+destination: _site
 markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-exclude:
-  - Gemfile
-  - Gemfile.lock
-include: [_pages]
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
