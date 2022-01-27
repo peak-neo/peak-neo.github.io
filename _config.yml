@@ -56,9 +56,10 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  twitter: 
-  email: 
-  github: '//github.com/kaeyleo'
+  youtube: 'https://www.youtube.com/channel/UCESqXfdQXsTLMCg733qZUFA'
+  twitter: 'https://twitter.com/neolux_lee'
+  email: 'neolux.lee@gmail.com'
+  github: 'https://github.com/peak-neo'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
