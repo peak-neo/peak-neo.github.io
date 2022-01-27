@@ -1,5 +1,6 @@
-_site
-.sass-cache
-.jekyll-metadata
+.DS_Store
+*/.DS_Store
 
-config.codekit
+node_modules
+
+_site
