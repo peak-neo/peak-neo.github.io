@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: assets/img/covers/hello-neolux-plaza
+cover: assets/img/covers/hello-neolux-plaza.jpg
 date: 2022-01-27
 author: Neolux Lee
 tags: jekyll
