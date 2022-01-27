@@ -1,66 +1,89 @@
-# Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.png
-favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
+# Site settings 配置站点
+title: 'Neolux Plaza'
+description: ''
+keyword: ''
+url: '' # your host
 
-pagination:
+# when build blog on server, if you don't need baseurl, you should leave this value blank.
+# 在服务器上建站时，如果你不需要子域名，请将这一格留空
+# if you're using GitHub Pages, set baseurl to your blog's .
+# 如果你在使用 GitHub Pages, 请将 baseurl 设置为你的网址的子域名
+# for example, if your site is "kaeyleo.github.io", then this url should leave blank.
+# 例如，当你的域名是 "kaeyleo.github.io"  时，这个 url 需要留空
+# but if your created a repo named "myblog", and the site is "kaeyleo.github.io/myblog", change baseurl to '/myblog'
+# 但是，如果你创建了一个叫 "myblog" 的网站，此时网址会变成 "kaeyleo.github.io/myblog" ，这时再将 baseurl 设置为 '/myblog'
+baseurl: ''
 
-  # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
 
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
+# Footer
+footer:
+  since: 2017
 
-  per_page: 5
+# Author 配置博主信息
+author: 'Neolux Lee'
+nickname: 'nal'
+bio: '学生，热爱音乐，喜欢玩'
+avatar: '/assets/img/profile_bear_with_caption.jpg'
 
-# Social
-facebook: facebook
-twitter: twitter
-github:  github
+# Search
+search: true
 
-#Additional Pages
-about: about
-contact: contact
-privacy-policy: privacy-policy
+# Night mode
+nightMode: true
 
+# Comments 评论功能
+comments:
+  disqus: true
+  disqus_url: 'https://neolux.disqus.com/embed.js'
 
-permalink: /:title
+# MathJax 公式支持 by Ray-Eldath
+mathjax: true
 
+# Share
+social-share: true
+social-share-items: ['wechat', 'douban', 'twitter']
 
-# Google Analytics
-analytics_id: ""
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
+
+# SNS settings 配置社交网站
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  youtube: 'https://www.youtube.com/channel/UCESqXfdQXsTLMCg733qZUFA'
+  twitter: 'https://twitter.com/neolux_lee'
+  email: 'neolux.lee@gmail.com'
+  github: 'https://github.com/peak-neo'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'locked', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
 markdown: kramdown
-
+highlighter: rouge
 kramdown:
-  parse_block_html: true
+  input: GFM
 
-plugins:
-  - jekyll-paginate-v2
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
 
 
-# Settings for rake task
-safe: False
-lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
-branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
-
-exclude:
-  - README.md
-  - Rakefile
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
