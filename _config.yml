@@ -1,66 +1,36 @@
-# Site settings
+# Profile information
+name: Neolux Lee
 title: Neolux Plaza
-description: 
-cover: assets/images/radhakrishna.jpg
-logo: assets/images/logo.jpg
-favicon: assets/images/favicon.jpg
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/ or / for root
-url: "http://plaza.neolux.ml" # the base hostname & protocol for your site
-
-pagination:
-
-  # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
-
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
-
-  per_page: 5
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "artemsheludko.pw" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social
-bilibili: bilibili
-twitter: twitter
-github:  github
+facebook: #Add your Facebook
+twitter: #Add your Twitter
+google-plus: #Add your Google+
+github: #Add your Github
 
-#Additional Pages
-about: about
-contact: contact
-privacy-policy: privacy-policy
+# Contact form
+email: yaml_ide_xml@foxmail.com #your-email@domain.com
 
+# Comments
+discus-identifier: # Add your Disqus identifier
 
-permalink: /:title
-
-
-# Google Analytics
-analytics_id: ""
+# Paginate
+paginate: 5
+paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
-
-kramdown:
-  parse_block_html: true
-
-plugins:
-  - jekyll-paginate-v2
-
-
-# Settings for rake task
-safe: False
-lsi: False
-username: peak-neo #github username
-repo: peak-neo.github.io #github repository
-branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  http://plaza.neolux.ml
-source_url:  https://github.com/peak-neo/peak-neo.github.io #source repository url
-
+gems:
+  - jekyll-feed
+  - jekyll-paginate
 exclude:
-  - README.md
-  - Rakefile
   - Gemfile
   - Gemfile.lock
-  - changelog.md
-  - "*.Rmd"
-  - vendor
-  - .travis.yml
+include: [_pages]

@@ -1,7 +1,13 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
+ruby RUBY_VERSION
 
-gem "jekyll", "~> 3.8.5"
-gem 'jekyll-compose', group: [:jekyll_plugins]
-gem "github-pages", "~> 198"
-gem "rake", "~> 12.3.2"
-gem 'jekyll-paginate-v2'
+gem "jekyll", "3.6.3"
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+   gem "jekyll-feed", "~> 0.6"
+   gem "jekyll-paginate"
+end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
