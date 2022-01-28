@@ -7,7 +7,7 @@ def create():
     title = input("标题(尽量使用字母而非汉字或其它字符): ")
     ftitleList = title.split()
     ftitle = ""
-    for i in (0,len(ftitleList)):
+    for i in range(0,len(ftitleList)):
         print(i)
         # temp = ftitleList[i]
         # if i != (len(ftitleList) - 1):
