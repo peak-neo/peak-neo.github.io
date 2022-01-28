@@ -8,12 +8,11 @@ def create():
     ftitleList = title.split()
     ftitle = ""
     for i in range(0,len(ftitleList)):
-        print(i)
-        # temp = ftitleList[i]
-        # if i != (len(ftitleList) - 1):
-        #     ftitle = ftitle + temp + "-" 
-        # else:
-        #     ftitle = ftitle + temp
+        temp = ftitleList[i]
+        if i != (len(ftitleList) - 1):
+            ftitle = ftitle + temp + "-" 
+        else:
+            ftitle = ftitle + temp
     t = time.strftime("%Y-%m-%d",time.localtime())
     filename = t + "-" + ftitle + ".md"
     print(filename)
