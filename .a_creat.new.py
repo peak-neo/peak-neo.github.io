@@ -1,6 +1,8 @@
+import time
+import os
+
 def create():
-    import time
-    import os
+
 
     title = input("标题(尽量使用字母而非汉字或其它字符): ")
     ftitleList = title.split()
@@ -24,3 +26,5 @@ def create():
     return
 
 create()
+
+os.system(".a_update_blog.bat")
