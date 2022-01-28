@@ -2,10 +2,17 @@ def create():
     import time
     import os
 
-    # title = input("标题: ")
-    title = "winxray"
+    title = input("标题(尽量使用字母而非汉字或其它字符): ")
+    ftitleList = title.split()
+    ftitle = ""
+    for i in (0,(len(ftitleList)-1)):
+        temp = ftitleList[i]
+        if i != (len(ftitleList) - 1):
+            ftitle = ftitle + temp + "-" 
+        else:
+            ftitle = ftitle + temp
     t = time.strftime("%Y-%m-%d",time.localtime())
-    filename = t + "-" + title + ".md"
+    filename = t + "-" + ftitle + ".md"
     print(filename)
     '''创建新博客文件'''
     if not os.path.exists(filename):
