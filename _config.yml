@@ -201,8 +201,8 @@ exclude:
   - /screenshots
   - /test
   - /vendor
-  - /_posts/drafts
-  - /_posts/locked
+  - /drafts
+  - /locked
 
 defaults:
   - scope:
