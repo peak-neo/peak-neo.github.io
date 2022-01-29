@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'H2O theme for Jekyll'
 subtitle: '或许是最漂亮的Jekyll主题'
 date: 2021-04-18
