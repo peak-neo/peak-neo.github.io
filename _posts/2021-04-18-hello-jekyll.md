@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title: 'Hello Jekyll'
 date: 2021-04-18
-author: Jekyll
 cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
 tags: jekyll
 ---
