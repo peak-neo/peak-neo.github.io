@@ -130,7 +130,7 @@ comments:
   gitalk:
     clientID    : a46713847c7934565299 # GitHub Application Client ID
     clientSecret: d117266a61b974403fa027bd0055d404d3c6a9cd # GitHub Application Client Secret
-    repository  : comments_de_place # GitHub repo
+    repository  : peak-neo.github.io # GitHub repo
     owner       : peak-neo # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       - peak-neo
