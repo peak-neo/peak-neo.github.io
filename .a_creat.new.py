@@ -48,4 +48,7 @@ head = f'''
     tags: Unclassified
 ---
 '''
-os.system(f"echo {head} >> /_posts/drafts/{filename}")
+with open(f"_posts/drafts/{filename}","a") as f:
+    f.write(head)
+    f.close()
+# os.system(f"echo {head} >> /_posts/drafts/{filename}")
