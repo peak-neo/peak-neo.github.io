@@ -203,6 +203,7 @@ exclude:
   - /test
   - /vendor
   - /_posts/drafts
+  - /_posts/protected
 
 defaults:
   - scope:

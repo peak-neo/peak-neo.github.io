@@ -43,6 +43,7 @@ head = f'''
     layout: article
     sharing: true
     date: {t}
+    title: {ftitle}
     author: Neolux Lee
     tags: Unclassified
 ---
