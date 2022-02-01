@@ -37,7 +37,7 @@ author:
   type      : person # "person" (default), "organization"
   name      : Neolux Lee
   url       : //plaza.neolux.ml
-  avatar    : # path or url of avatar image (square)
+  avatar    : https://s2.loli.net/2022/01/14/9Y3x2phtHgfBGVj.jpg # path or url of avatar image (square)
   bio       : I am an amazing person.
   email     : neolux.lee@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
