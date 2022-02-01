@@ -204,6 +204,7 @@ exclude:
   - /vendor
   - /_posts/drafts
   - /_posts/protected
+  - /trash_bin
 
 defaults:
   - scope:
