@@ -1,4 +1,5 @@
 ---
+layout: article
 author: Neolux Lee
 title: 局域网共享代理设置
 date: 2022-02-01

@@ -1,4 +1,5 @@
 ---
+layout: article
 author: Neolux Lee
 title: 使用v2ray和dogcloud翻墙
 date: 2022-02-01

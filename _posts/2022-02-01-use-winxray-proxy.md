@@ -1,4 +1,5 @@
 ---
+layout: article
 author: Neolux Lee
 title: WinXray以及获取3000+服务节点
 date: 2022-02-01
