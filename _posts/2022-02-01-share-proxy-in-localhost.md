@@ -14,9 +14,9 @@ tags: 翻墙
 
 ## 开启局域网共享设置
 
-在设置里面，可以看到有“允许来自局域网的连接”的选项，我们将它勾选，之后确定自己的端口。如果你的其他设备使用的是HTTP代理，就记住这里这值得HTTP代理端口；如果是ShadowSocks/SSR就记住Socks端口。![image-20210812105614341](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812105614341.png)
+在设置里面，可以看到有“允许来自局域网的连接”的选项，我们将它勾选，之后确定自己的端口。如果你的其他设备使用的是HTTP代理，就记住这里这值得HTTP代理端口；如果是ShadowSocks/SSR就记住Socks端口。![image-20210812105614341](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812105614341.png)
 
-之后我们打开终端<kbd>win</kbd>+<kbd>x</kbd>=>打开WindowsTerminal（Windows10 是Powershell，我这里用的是Windows11）![image-20210812110053255](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812110053255.png)
+之后我们打开终端<kbd>win</kbd>+<kbd>x</kbd>=>打开WindowsTerminal（Windows10 是Powershell，我这里用的是Windows11）![image-20210812110053255](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812110053255.png)
 
 在终端中运行下列命令
 
@@ -24,40 +24,40 @@ tags: 翻墙
 PS C:\Users\Administrator> ipconfig
 ```
 
-找到你正在使用的适配器，查看IPv4地址![image-20210812110410128](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812110410128.png)
+找到你正在使用的适配器，查看IPv4地址![image-20210812110410128](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812110410128.png)
 
 这些信息都获取后，就可以连接了
 
 ## 其他设连接（手机为例）
 
-现在我已经在一个全新的安卓模拟器中打开浏览器，可以看到此时YouTube和Google都是是不能访问的![image-20210812112510482](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812112510482.png)
+现在我已经在一个全新的安卓模拟器中打开浏览器，可以看到此时YouTube和Google都是是不能访问的![image-20210812112510482](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812112510482.png)
 
-![image-20210812112438889](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812112438889.png)
+![image-20210812112438889](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812112438889.png)
 
 
 
 下面我们就开始连接到电脑的代理
 
-1. 打开设置，连接到同一个局域网![image-20210812112557048](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812112557048.png)
+1. 打开设置，连接到同一个局域网![image-20210812112557048](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812112557048.png)
 
    这里使用的是模拟器，所以已经连接到WiFi
 
 2. 编辑WiFi设置
-   打开WiFi高级设置，在代理一栏选择手动![image-20210812112733517](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812112733517.png)
+   打开WiFi高级设置，在代理一栏选择手动![image-20210812112733517](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812112733517.png)
 
 3. 填入信息
 
-   主机名就填入刚刚查到的IPv4地址，端口填入你的端口![image-20210812112916111](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812112916111.png)
+   主机名就填入刚刚查到的IPv4地址，端口填入你的端口![image-20210812112916111](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812112916111.png)
 
-保存之后再打开浏览器看看![image-20210812113216087](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812113216087.png)此时已经可以正常打开了
+保存之后再打开浏览器看看![image-20210812113216087](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812113216087.png)此时已经可以正常打开了
 
 我们打开一个视频，看看访问速度是否会降低
 
-电脑：![image-20210812113822302](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812113822302.png)![image-20210812113907385](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812113907385.png)
+电脑：![image-20210812113822302](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812113822302.png)![image-20210812113907385](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812113907385.png)
 
-![image-20210812113924947](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812113924947.png)
+![image-20210812113924947](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812113924947.png)
 
-手机：![image-20210812114117558](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812114117558.png)![image-20210812114218744](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812114218744.png)![image-20210812114421425](https://cdn.jsdelivr.net/gh/li-kangfeng/BlogImage@1.4/shareProxy/image-20210812114421425.png)
+手机：![image-20210812114117558](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812114117558.png)![image-20210812114218744](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812114218744.png)![image-20210812114421425](/assets/img/2022-02-01-share-proxy-in-localhost_imgs/image-20210812114421425.png)
 
 可见速度是差不多的，没有因为中间多了一个设备而出现明显降速的状况。
 
