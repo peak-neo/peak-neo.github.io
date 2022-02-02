@@ -13,7 +13,7 @@
 
 > 下载
 
-看完界面是不是很酷！**AnXray**发行有许多版本，兼容性非常好。对不清楚下载哪个版本的朋友可以 先看个究竟再决定，如下图目前发布最新的0.1-beta06版本.![EngAns_3.png](../assets/img/2022-02-01-anxray-proxy_imgs/OhejY3iKXI9q26V-16438061569341.png)
+看完界面是不是很酷！**AnXray**发行有许多版本，兼容性非常好。对不清楚下载哪个版本的朋友可以 先看个究竟再决定，如下图目前发布最新的0.1-beta06版本.![EngAns_3.png](https://s2.loli.net/2022/02/02/OhejY3iKXI9q26V.png)
 
 arm64 v8a适合性能佳的安卓手机下载(像高通骁龙(snapdragon),三星(Exynos),联发科(Helio).华为(麒 麟))，arm64 v8a[下载链接](https://github.com/XTLS/AnXray/releases/download/0.1-beta06/AX-0.1-beta06-arm64-v8a.apk)。 arm64 v7a是刚过失的前主流手机下载，对于老牙手机兼容好， 大多数请使用arm64 v8a版本安装 ，如果 安装失败再考虑arm64 v7a,[下载链接 ](https://github.com/XTLS/AnXray/releases/download/0.1-beta06/AX-0.1-beta06-armeabi-v7a.apk)。 大家根据自己的手机情况下载。 查 看 更 全 面 各 版 本 的 apk 安 装 包 详 见[此处](https://github.com/XTLS/AnXray/releases/tag/0.1- beta06)
 
