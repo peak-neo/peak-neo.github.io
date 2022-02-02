@@ -9,11 +9,11 @@
 
 > 前言
 
-目前最流行使用Xray (https://github.com/XTLS/Xray-core/releases/tag/v1.4.2)科学翻墙技术应 用 于 服 务 端 ， 在 Window 电 脑 使 用 [Winxray 客 户 端 ](https://github.com/hans822418/winXray-3.7)连 接 ， Macos 使 用 [Qxray](https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-macOS-x64.dmg)客户端,那么Andorid手机则使用**AnXray**客户端。 对！今天重点介绍的就是**AnXray**客户端，一起先来看看长什么样吧！![img](../assets/img/2022-02-01-anxray-proxy_imgs/Ag9TKrIURmPHlZO-16437748471621.png)
+目前最流行使用Xray (https://github.com/XTLS/Xray-core/releases/tag/v1.4.2)科学翻墙技术应 用 于 服 务 端 ， 在 Window 电 脑 使 用 [Winxray 客 户 端 ](https://github.com/hans822418/winXray-3.7)连 接 ， Macos 使 用 [Qxray](https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-macOS-x64.dmg)客户端,那么Andorid手机则使用**AnXray**客户端。 对！今天重点介绍的就是**AnXray**客户端，一起先来看看长什么样吧！![bg.png](../assets/img/2022-02-01-anxray-proxy_imgs/Ag9TKrIURmPHlZO-16437981904015.png)
 
 > 下载
 
-看完界面是不是很酷！**AnXray**发行有许多版本，兼容性非常好。对不清楚下载哪个版本的朋友可以 先看个究竟再决定，如下图目前发布最新的0.1-beta06版本.![EngAns_3.png](../assets/img/2022-02-01-anxray-proxy_imgs/OhejY3iKXI9q26V.png)
+看完界面是不是很酷！**AnXray**发行有许多版本，兼容性非常好。对不清楚下载哪个版本的朋友可以 先看个究竟再决定，如下图目前发布最新的0.1-beta06版本.![EngAns_3.png](../assets/img/2022-02-01-anxray-proxy_imgs/OhejY3iKXI9q26V-16437981468481.png)
 
 arm64 v8a适合性能佳的安卓手机下载(像高通骁龙(snapdragon),三星(Exynos),联发科(Helio).华为(麒 麟))，arm64 v8a[下载链接](https://github.com/XTLS/AnXray/releases/download/0.1-beta06/AX-0.1-beta06-arm64-v8a.apk)。 arm64 v7a是刚过失的前主流手机下载，对于老牙手机兼容好， 大多数请使用arm64 v8a版本安装 ，如果 安装失败再考虑arm64 v7a,[下载链接 ](https://github.com/XTLS/AnXray/releases/download/0.1-beta06/AX-0.1-beta06-armeabi-v7a.apk)。 大家根据自己的手机情况下载。 查 看 更 全 面 各 版 本 的 apk 安 装 包 详 见[此处](https://github.com/XTLS/AnXray/releases/tag/0.1- beta06)
 
