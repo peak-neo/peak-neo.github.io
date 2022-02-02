@@ -4,7 +4,7 @@
     date: 2022-02-01
     title: 科学上网安卓客户端——AnXray
     author: Neolux Lee
-    tags: 翻墙
+    tags: 翻墙 Xray
 ---
 
 > 前言
