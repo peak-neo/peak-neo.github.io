@@ -205,6 +205,7 @@ exclude:
   - /_posts/protected
   - /trash_bin
   - /love_files
+  - /love.html
 
 defaults:
   - scope:
