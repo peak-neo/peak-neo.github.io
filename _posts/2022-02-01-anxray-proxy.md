@@ -9,7 +9,7 @@
 
 > 前言
 
-目前最流行使用Xray (https://github.com/XTLS/Xray-core/releases/tag/v1.4.2)科学翻墙技术应 用 于 服 务 端 ， 在 Window 电 脑 使 用 [Winxray 客 户 端 ](https://github.com/hans822418/winXray-3.7)连 接 ， Macos 使 用 [Qxray](https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-macOS-x64.dmg)客户端,那么Andorid手机则使用**AnXray**客户端。 对！今天重点介绍的就是**AnXray**客户端，一起先来看看长什么样吧！![img](../assets/img/2022-02-01-anxray-proxy_imgs/Ag9TKrIURmPHlZO.png)
+目前最流行使用Xray (https://github.com/XTLS/Xray-core/releases/tag/v1.4.2)科学翻墙技术应 用 于 服 务 端 ， 在 Window 电 脑 使 用 [Winxray 客 户 端 ](https://github.com/hans822418/winXray-3.7)连 接 ， Macos 使 用 [Qxray](https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-macOS-x64.dmg)客户端,那么Andorid手机则使用**AnXray**客户端。 对！今天重点介绍的就是**AnXray**客户端，一起先来看看长什么样吧！![img](../assets/img/2022-02-01-anxray-proxy_imgs/Ag9TKrIURmPHlZO-16437748471621.png)
 
 > 下载
 
