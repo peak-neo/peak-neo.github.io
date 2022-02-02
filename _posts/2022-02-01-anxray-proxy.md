@@ -230,7 +230,7 @@ arm64 v8a适合性能佳的安卓手机下载(像高通骁龙(snapdragon),三星
      - MATCH,🐟 漏网之鱼
     ```
 
-      以上是一个简版的Clash yaml文件信息，只要将上述代码<kbd>全选+复制</kbd>，即可在AnXray导入。这 在手机端科学翻墙软件中导入，我首次见到的“强大性”。
+    以上是一个简版的Clash yaml文件信息，只要将上述代码<kbd>全选+复制</kbd>，即可在AnXray导入。这 在手机端科学翻墙软件中导入，我首次见到的“强大性”。
 
     因该Clash yaml文件信息量太大，所以上述代码信息不完整，需要实验的朋友可以直接打开[这个链接](https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml)实验一把。
 
