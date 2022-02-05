@@ -24,7 +24,10 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
-cover: /assets/images/about-head.jpg
+article_header:
+  type: cover
+  image:
+    src: /assets/images/about-head.jpg
 ---
 
 # **Neoluxi Plaza**
