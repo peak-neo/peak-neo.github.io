@@ -24,7 +24,23 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
+cover: /assets/images/about-head.jpg
 ---
 
 # **Neoluxi Plaza**
 
+花费两天搭建博客，主题为[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)，使用了GitHub Pages。
+
+博主： Neolux Lee
+
+邮箱： <neolux.lee@gmail.com>
+
+<neolux.lee@neolux.ga>
+
+<neolux.lee@hotmail.com>
+
+<neolux_lee@outlook.com>
+
+<lkf3844@qq.com>(最常用)
+
+date: 2022/01/29
