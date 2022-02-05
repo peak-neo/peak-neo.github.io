@@ -27,16 +27,26 @@ key: page-about
 article_header:
   type: cover
   image:
-    src: /assets/images/about-head.jpg
+    src: /assets/images/header/about-head.jpg
 ---
 
 # **Neoluxi Plaza**
 
 花费两天搭建博客，主题为[TeXt](https://github.com/kitian616/jekyll-TeXt-theme)，使用了GitHub Pages。
 
+
+
+主要分享的是翻墙与白嫖，不定时更新。手写版已经有数篇，不定时上传。
+
+
+
 博主： Neolux Lee
 
-邮箱： <neolux.lee@gmail.com>
+
+
+邮箱： 
+
+<neolux.lee@gmail.com>
 
 <neolux.lee@neolux.ga>
 
@@ -45,5 +55,7 @@ article_header:
 <neolux_lee@outlook.com>
 
 <lkf3844@qq.com>(最常用)
+
+
 
 date: 2022/01/29
